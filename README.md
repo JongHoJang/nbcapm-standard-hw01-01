@@ -1,1 +1,22 @@
-## 리액트 스탠다드 반 첫번째 과제
+# 리액트 스탠다드 반 1-1 과제
+
+## 요구사항
+- 아래의 `App.jsx` 파일을 `Header.jsx`, `Content.jsx`, `Footer.jsx` 세 개의 파일로 분리하세요.
+- 각 컴포넌트는 단순히 UI만 렌더링합니다.
+- 컴포넌트 간에 props 전달은 필요하지 않습니다.
+
+```javascript
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>My Website</h1>
+      <p>Welcome to my website!</p>
+      <footer>© 2024 My Website</footer>
+    </div>
+  );
+}
+
+export default App;
+```
